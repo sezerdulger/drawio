@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-27T13:04:58.389Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="d3V9h7pyLU6pAk-hCi5s" version="20.8.23" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-27T13:07:13.604Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="KI9WqN3Wqx_MAIYyozSX" version="20.8.23" type="github">
   <diagram name="Page-1" id="2YBvvXClWsGukQMizWep">
     <mxGraphModel dx="1500" dy="771" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
@@ -110,7 +110,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="DD67O1B9OSoniIuFbWWG-24" value="Create stream and create RTP session" style="shape=card;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="DD67O1B9OSoniIuFbWWG-24" value="Create SIP&lt;br&gt;/RTP sessions" style="shape=card;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="335" y="380" width="80" height="100" as="geometry" />
         </mxCell>
         <mxCell id="DD67O1B9OSoniIuFbWWG-25" value="RTP/RTCP" style="endArrow=classic;startArrow=classic;html=1;rounded=0;strokeColor=default;dashed=1;" edge="1" parent="1">
@@ -147,16 +147,32 @@
         </mxCell>
         <mxCell id="DD67O1B9OSoniIuFbWWG-29" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=default;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="425.0000000000002" y="455" as="sourcePoint" />
-            <mxPoint x="749.5000000000005" y="455" as="targetPoint" />
+            <mxPoint x="425.0000000000002" y="440" as="sourcePoint" />
+            <mxPoint x="749.5000000000005" y="440" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="650" y="455" />
+              <mxPoint x="650" y="440" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="DD67O1B9OSoniIuFbWWG-31" value="200 OK" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="DD67O1B9OSoniIuFbWWG-29">
           <mxGeometry x="0.0152" y="4" relative="1" as="geometry">
             <mxPoint y="-6" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DD67O1B9OSoniIuFbWWG-33" value="ACK" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="0.0032" relative="1" as="geometry">
+            <mxPoint x="745" y="480" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="680" y="480" />
+              <mxPoint x="650" y="500" />
+              <mxPoint x="600" y="410" />
+              <mxPoint x="670" y="440" />
+              <mxPoint x="920" y="380" />
+              <mxPoint x="840" y="230" />
+              <mxPoint x="340" y="200" />
+            </Array>
+            <mxPoint x="430" y="480" as="targetPoint" />
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
       </root>

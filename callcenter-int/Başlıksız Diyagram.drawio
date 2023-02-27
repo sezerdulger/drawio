@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-27T12:16:11.286Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="WDc06i5AWh9yQOBdBnGe" version="20.8.23" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-27T12:25:37.578Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="iCMi_he_H_JiBDSZanaK" version="20.8.23" type="github">
   <diagram name="Page-1" id="2YBvvXClWsGukQMizWep">
     <mxGraphModel dx="1050" dy="540" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
@@ -73,7 +73,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="DD67O1B9OSoniIuFbWWG-14" value="DTMF(e.g. 3)" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" source="aM9ryv3xv72pqoxQDRHE-6">
+        <mxCell id="DD67O1B9OSoniIuFbWWG-14" value="NOTIFY DTMF Digits" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" source="aM9ryv3xv72pqoxQDRHE-6">
           <mxGeometry x="0.0032" relative="1" as="geometry">
             <mxPoint x="750" y="430" as="sourcePoint" />
             <Array as="points">
@@ -110,7 +110,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="DD67O1B9OSoniIuFbWWG-24" value="Find configured stream file for DTMF tone and save state for this session" style="shape=card;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="DD67O1B9OSoniIuFbWWG-24" value="Find configured stream file for DTMF digits and save state for this session" style="shape=card;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="335" y="380" width="80" height="100" as="geometry" />
         </mxCell>
         <mxCell id="DD67O1B9OSoniIuFbWWG-25" value="RTP/RTCP" style="endArrow=classic;startArrow=classic;html=1;rounded=0;strokeColor=default;dashed=1;" edge="1" parent="1">
@@ -127,6 +127,37 @@
         </mxCell>
         <mxCell id="DD67O1B9OSoniIuFbWWG-27" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="DD67O1B9OSoniIuFbWWG-26">
           <mxGeometry x="45" y="220" width="10" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="DD67O1B9OSoniIuFbWWG-28" value="Create Stream" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" source="DD67O1B9OSoniIuFbWWG-27" target="DD67O1B9OSoniIuFbWWG-12">
+          <mxGeometry x="0.0032" relative="1" as="geometry">
+            <mxPoint x="290" y="560" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="290" y="560" />
+              <mxPoint x="390" y="530" />
+              <mxPoint x="360" y="550" />
+              <mxPoint x="310" y="460" />
+              <mxPoint x="380" y="490" />
+              <mxPoint x="630" y="430" />
+              <mxPoint x="550" y="280" />
+              <mxPoint x="50" y="250" />
+            </Array>
+            <mxPoint x="140" y="530" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DD67O1B9OSoniIuFbWWG-29" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=default;" edge="1" parent="1" source="DD67O1B9OSoniIuFbWWG-27" target="aM9ryv3xv72pqoxQDRHE-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="270" y="330" as="sourcePoint" />
+            <mxPoint x="320" y="280" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="650" y="360" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DD67O1B9OSoniIuFbWWG-30" value="SUBSCRIBE DTMF Digits" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="DD67O1B9OSoniIuFbWWG-29">
+          <mxGeometry x="0.102" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>

@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-27T13:13:05.245Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="cs5Ylt_QXPbFqSwwZXYm" version="20.8.23" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-27T13:29:04.278Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="D_HYDzvUHYzJZ1Q6PL_Z" version="20.8.23" type="github" pages="2">
   <diagram name="Page-1" id="2YBvvXClWsGukQMizWep">
     <mxGraphModel dx="1500" dy="771" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
@@ -226,6 +226,23 @@
           <mxGeometry x="0.0152" y="4" relative="1" as="geometry">
             <mxPoint y="-6" as="offset" />
           </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="MEZlHmAkNhx1BPS7WCgJ" name="Sayfa -2">
+    <mxGraphModel dx="1050" dy="540" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="NC9fDQXiCX9eXR-Qifdj-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;" edge="1" parent="1" source="NC9fDQXiCX9eXR-Qifdj-1" target="NC9fDQXiCX9eXR-Qifdj-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NC9fDQXiCX9eXR-Qifdj-1" value="SIP GW" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="60" y="40" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NC9fDQXiCX9eXR-Qifdj-2" value="SIP GW is a light-weight SIP server. It should handle basic call and NOTIFY message for DTMF Digits. It must save session state and DTMS digit sequence to route call flow as expected." style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="100" width="320" height="140" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

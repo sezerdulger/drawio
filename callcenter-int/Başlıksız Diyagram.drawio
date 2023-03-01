@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-01T10:14:42.757Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="F21nWlc2Be74yU9OEgT-" version="20.8.23" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-03-01T10:22:23.978Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="o1KScodcpn7hGEtQiASe" version="20.8.23" type="github" pages="2">
   <diagram name="Page-1" id="2YBvvXClWsGukQMizWep">
     <mxGraphModel dx="1500" dy="771" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -244,8 +244,8 @@
         <mxCell id="NC9fDQXiCX9eXR-Qifdj-1" value="SIP GW" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="60" y="40" width="70" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="NC9fDQXiCX9eXR-Qifdj-2" value="SIP/Streaming Converter Service&amp;nbsp;includes a SIP stack. It should handle basic call and NOTIFY message for DTMF Digits. It must save session state and DTMS digit sequence to route announcement flow as expected.&lt;br&gt;Below SIP stack can be used:&lt;br&gt;https://github.com/usnistgov/jsip&lt;br&gt;SIP GW will" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="230" y="100" width="320" height="140" as="geometry" />
+        <mxCell id="NC9fDQXiCX9eXR-Qifdj-2" value="SIP/Streaming Converter Service&amp;nbsp;includes a SIP stack. It should handle basic call and NOTIFY message for DTMF Digits. It must save session state and DTMS digit sequence to route announcement flow as expected.&lt;br&gt;Below SIP stack can be used:&lt;br&gt;https://github.com/usnistgov/jsip&lt;br&gt;SIP/Streaming Converter Service may receive an INVITE message from Call Center. And will response 200 OK including new RTP session media information in SDP.&lt;br&gt;Call center may send SDP in INVITE or in ACK message. First of all service should find saved announcement playing state for this session (session information comes from INVITE headers: From, To, Session-Id).&lt;br&gt;If call state is found then external file URL is created for next announcement file. Ant-media server may use this URL to stream file back to service. And stream data may proxied to RTP session of agent.&amp;nbsp; &amp;nbsp;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="100" width="400" height="220" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

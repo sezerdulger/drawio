@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-01T09:38:45.736Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="gpTcG0SI_soy5EsTFmjk" version="20.8.23" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-03-01T10:14:42.757Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="F21nWlc2Be74yU9OEgT-" version="20.8.23" type="github" pages="2">
   <diagram name="Page-1" id="2YBvvXClWsGukQMizWep">
     <mxGraphModel dx="1500" dy="771" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -122,7 +122,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="DD67O1B9OSoniIuFbWWG-26" value="SIP GW" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+        <mxCell id="DD67O1B9OSoniIuFbWWG-26" value="SIP/Streaming Converter Service" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
           <mxGeometry x="370" y="28" width="100" height="770" as="geometry" />
         </mxCell>
         <mxCell id="DD67O1B9OSoniIuFbWWG-27" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="DD67O1B9OSoniIuFbWWG-26">
@@ -244,7 +244,7 @@
         <mxCell id="NC9fDQXiCX9eXR-Qifdj-1" value="SIP GW" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="60" y="40" width="70" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="NC9fDQXiCX9eXR-Qifdj-2" value="SIP GW is a light-weight SIP server. It should handle basic call and NOTIFY message for DTMF Digits. It must save session state and DTMS digit sequence to route call flow as expected." style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="NC9fDQXiCX9eXR-Qifdj-2" value="SIP/Streaming Converter Service&amp;nbsp;includes a SIP stack. It should handle basic call and NOTIFY message for DTMF Digits. It must save session state and DTMS digit sequence to route announcement flow as expected.&lt;br&gt;Below SIP stack can be used:&lt;br&gt;https://github.com/usnistgov/jsip&lt;br&gt;SIP GW will" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="230" y="100" width="320" height="140" as="geometry" />
         </mxCell>
       </root>

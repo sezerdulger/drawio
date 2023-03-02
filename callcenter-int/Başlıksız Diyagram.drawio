@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-02T21:42:22.088Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="HYdY9QW2_QfNEolSs8uF" version="20.8.24" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2023-03-02T21:55:19.930Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="uYUJeTBfp1H4j7dxvIUx" version="20.8.24" type="github" pages="7">
   <diagram name="Page-1" id="2YBvvXClWsGukQMizWep">
     <mxGraphModel dx="1050" dy="540" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -699,7 +699,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="ConferenceCall" id="41Aj9pWotoVRq3FsAj3p">
-    <mxGraphModel dx="2100" dy="1080" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1750" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="TDJ8YiC8_bnV5bd5X6He-0" />
         <mxCell id="TDJ8YiC8_bnV5bd5X6He-1" parent="TDJ8YiC8_bnV5bd5X6He-0" />
@@ -809,17 +809,6 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="TDJ8YiC8_bnV5bd5X6He-23" value="Websocket connection" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="TDJ8YiC8_bnV5bd5X6He-22">
-          <mxGeometry x="0.1705" relative="1" as="geometry">
-            <mxPoint x="-9" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="TDJ8YiC8_bnV5bd5X6He-24" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="TDJ8YiC8_bnV5bd5X6He-1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="310" y="160" as="sourcePoint" />
-            <mxPoint x="480" y="160" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="TDJ8YiC8_bnV5bd5X6He-25" value="Websocket connection" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="TDJ8YiC8_bnV5bd5X6He-24">
           <mxGeometry x="0.1705" relative="1" as="geometry">
             <mxPoint x="-9" as="offset" />
           </mxGeometry>
@@ -975,8 +964,8 @@
         </mxCell>
         <mxCell id="fNhjtnq-IyvV9pMxfP2X-35" value="REFER" style="endArrow=classic;html=1;rounded=0;fontSize=12;" edge="1" parent="TDJ8YiC8_bnV5bd5X6He-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="668.5" y="810" as="sourcePoint" />
-            <mxPoint x="1150" y="810" as="targetPoint" />
+            <mxPoint x="668.5" y="780" as="sourcePoint" />
+            <mxPoint x="1130" y="780" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="fNhjtnq-IyvV9pMxfP2X-36" value="INVITE conf" style="endArrow=classic;html=1;rounded=0;fontSize=12;" edge="1" parent="TDJ8YiC8_bnV5bd5X6He-1">
@@ -1032,8 +1021,8 @@
         </mxCell>
         <mxCell id="d1pd00PjXsBUFf9roisa-9" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="TDJ8YiC8_bnV5bd5X6He-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1070.5" y="780" as="sourcePoint" />
-            <mxPoint x="670" y="780" as="targetPoint" />
+            <mxPoint x="1070.5" y="750" as="sourcePoint" />
+            <mxPoint x="670" y="750" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="d1pd00PjXsBUFf9roisa-10" value="REFER conf@room1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="d1pd00PjXsBUFf9roisa-9">
@@ -1188,6 +1177,21 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="653.82" y="700" as="sourcePoint" />
             <mxPoint x="479.07" y="700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BTlnnpY8MKPIaPomovjn-9" value="Media Mixing may be needed for VoIP clients" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;strokeWidth=1;fontSize=12;" vertex="1" parent="TDJ8YiC8_bnV5bd5X6He-1">
+          <mxGeometry x="199.07" y="1141" width="110" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="BTlnnpY8MKPIaPomovjn-11" value="RTP/RTCP" style="endArrow=classic;startArrow=classic;html=1;rounded=0;fontSize=12;dashed=1;" edge="1" parent="TDJ8YiC8_bnV5bd5X6He-1" target="TDJ8YiC8_bnV5bd5X6He-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="150" y="1500" as="sourcePoint" />
+            <mxPoint x="530" y="1270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BTlnnpY8MKPIaPomovjn-13" value="RTP/RTCP" style="endArrow=classic;startArrow=classic;html=1;rounded=0;fontSize=12;dashed=1;" edge="1" parent="TDJ8YiC8_bnV5bd5X6He-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="479.07" y="1120" as="sourcePoint" />
+            <mxPoint x="1140" y="1120" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>

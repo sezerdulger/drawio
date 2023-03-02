@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-02T13:19:49.209Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="pbaHoLgj5ybjYyckDjPP" version="20.8.24" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-03-02T13:19:52.430Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="DCjnErLclVr1-zV7gtn9" version="20.8.24" type="github" pages="3">
   <diagram name="Page-1" id="2YBvvXClWsGukQMizWep">
     <mxGraphModel dx="1050" dy="540" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -430,7 +430,7 @@
           <mxGeometry x="560" y="10" width="320" height="30" as="geometry" />
         </mxCell>
         <mxCell id="CvnQWH9oAZYDR9qTgp7g-11" value="Copy SDP information to join message" style="shape=card;whiteSpace=wrap;html=1;" vertex="1" parent="TCfP_ukSUr1LcT99JSwx-1">
-          <mxGeometry x="700" y="230" width="80" height="70" as="geometry" />
+          <mxGeometry x="700" y="240" width="80" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

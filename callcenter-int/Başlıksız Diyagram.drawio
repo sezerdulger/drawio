@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-02T13:19:52.430Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="DCjnErLclVr1-zV7gtn9" version="20.8.24" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-03-02T13:22:20.473Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="2Ay3ej6JXGPOmXfcZdeS" version="20.8.24" type="github" pages="3">
   <diagram name="Page-1" id="2YBvvXClWsGukQMizWep">
     <mxGraphModel dx="1050" dy="540" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -269,8 +269,8 @@
         </mxCell>
         <mxCell id="VikxpU77VclI6q24rvuL-10" value="" style="endArrow=classic;html=1;rounded=0;" parent="TCfP_ukSUr1LcT99JSwx-1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="880" y="393" as="sourcePoint" />
-            <mxPoint x="1070.5" y="393" as="targetPoint" />
+            <mxPoint x="880" y="423" as="sourcePoint" />
+            <mxPoint x="1070.5" y="423" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="VikxpU77VclI6q24rvuL-11" value="200 OK" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="VikxpU77VclI6q24rvuL-10" vertex="1" connectable="0">
@@ -280,8 +280,8 @@
         </mxCell>
         <mxCell id="VikxpU77VclI6q24rvuL-12" value="" style="endArrow=classic;html=1;rounded=0;" parent="TCfP_ukSUr1LcT99JSwx-1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1070" y="419" as="sourcePoint" />
-            <mxPoint x="879.5" y="419" as="targetPoint" />
+            <mxPoint x="1070" y="449" as="sourcePoint" />
+            <mxPoint x="879.5" y="449" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="VikxpU77VclI6q24rvuL-18" value="ACK" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="VikxpU77VclI6q24rvuL-12" vertex="1" connectable="0">
@@ -308,8 +308,8 @@
         </mxCell>
         <mxCell id="VikxpU77VclI6q24rvuL-16" value="" style="endArrow=classic;html=1;rounded=0;" parent="TCfP_ukSUr1LcT99JSwx-1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="700.5" y="373" as="sourcePoint" />
-            <mxPoint x="880" y="373" as="targetPoint" />
+            <mxPoint x="700.5" y="403" as="sourcePoint" />
+            <mxPoint x="880" y="403" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="VikxpU77VclI6q24rvuL-17" value="200 OK" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="VikxpU77VclI6q24rvuL-16" vertex="1" connectable="0">
@@ -319,8 +319,8 @@
         </mxCell>
         <mxCell id="VikxpU77VclI6q24rvuL-20" value="" style="endArrow=classic;html=1;rounded=0;" parent="TCfP_ukSUr1LcT99JSwx-1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="880" y="443" as="sourcePoint" />
-            <mxPoint x="700" y="443" as="targetPoint" />
+            <mxPoint x="880" y="473" as="sourcePoint" />
+            <mxPoint x="700" y="473" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="VikxpU77VclI6q24rvuL-21" value="ACK" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="VikxpU77VclI6q24rvuL-20" vertex="1" connectable="0">
@@ -431,6 +431,20 @@
         </mxCell>
         <mxCell id="CvnQWH9oAZYDR9qTgp7g-11" value="Copy SDP information to join message" style="shape=card;whiteSpace=wrap;html=1;" vertex="1" parent="TCfP_ukSUr1LcT99JSwx-1">
           <mxGeometry x="700" y="240" width="80" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="CvnQWH9oAZYDR9qTgp7g-12" value="Copy SDP information to 200 OK" style="shape=card;whiteSpace=wrap;html=1;" vertex="1" parent="TCfP_ukSUr1LcT99JSwx-1">
+          <mxGeometry x="700" y="320" width="80" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="CvnQWH9oAZYDR9qTgp7g-13" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;fontSize=24;dashed=1;dashPattern=1 2;" edge="1" parent="TCfP_ukSUr1LcT99JSwx-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="520" as="sourcePoint" />
+            <mxPoint x="1080" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CvnQWH9oAZYDR9qTgp7g-14" value="RTP/RTCP" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="CvnQWH9oAZYDR9qTgp7g-13">
+          <mxGeometry x="0.1862" relative="1" as="geometry">
+            <mxPoint x="-36" as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>

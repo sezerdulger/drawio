@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-03-02T22:30:52.421Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="4lK30Rv7VeNrp2lr_3Gz" version="20.8.24" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2023-03-02T22:46:02.138Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="01kRm9qJAHk8iLihcMEC" version="20.8.24" type="github" pages="7">
   <diagram name="Page-1" id="2YBvvXClWsGukQMizWep">
-    <mxGraphModel dx="1050" dy="540" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="719" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -234,7 +234,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="P2PCall" id="xiKRHE-xr8jjaALfAHC5">
-    <mxGraphModel dx="1000" dy="514" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1366" dy="685" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="TCfP_ukSUr1LcT99JSwx-0" />
         <mxCell id="TCfP_ukSUr1LcT99JSwx-1" parent="TCfP_ukSUr1LcT99JSwx-0" />
@@ -815,10 +815,10 @@
         </mxCell>
         <mxCell id="TDJ8YiC8_bnV5bd5X6He-26" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="TDJ8YiC8_bnV5bd5X6He-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="479.75" y="260" as="sourcePoint" />
-            <mxPoint x="309.75" y="260" as="targetPoint" />
+            <mxPoint x="479.07" y="284.17" as="sourcePoint" />
+            <mxPoint x="309.07" y="284.17" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="450.25" y="260" />
+              <mxPoint x="449.57" y="284.17" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -850,20 +850,6 @@
         <mxCell id="TDJ8YiC8_bnV5bd5X6He-31" value="WS join message" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="TDJ8YiC8_bnV5bd5X6He-30">
           <mxGeometry x="0.213" y="-1" relative="1" as="geometry">
             <mxPoint x="-23" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="TDJ8YiC8_bnV5bd5X6He-32" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="TDJ8YiC8_bnV5bd5X6He-1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="479.75" y="290" as="sourcePoint" />
-            <mxPoint x="309.75" y="290" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="430.25" y="290" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="TDJ8YiC8_bnV5bd5X6He-33" value="WS join message" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="TDJ8YiC8_bnV5bd5X6He-32">
-          <mxGeometry x="-0.0318" relative="1" as="geometry">
-            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="TDJ8YiC8_bnV5bd5X6He-34" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="TDJ8YiC8_bnV5bd5X6He-1">

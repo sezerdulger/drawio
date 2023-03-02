@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-02T22:23:14.581Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="aSL-EXHZVH0Xqxhaq4aF" version="20.8.24" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2023-03-02T22:24:48.694Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="9SRAfYoc8-RAKgeGKczb" version="20.8.24" type="github" pages="7">
   <diagram name="Page-1" id="2YBvvXClWsGukQMizWep">
     <mxGraphModel dx="1050" dy="540" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -1635,7 +1635,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="MEZlHmAkNhx1BPS7WCgJ" name="Tasks">
-    <mxGraphModel dx="1434" dy="719" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="719" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1643,10 +1643,10 @@
           <mxGeometry x="40" y="30" width="920" height="200" as="geometry" />
         </mxCell>
         <mxCell id="1_cyU5AuRWOiNFVyykDg-1" value="&lt;h1&gt;Overall Time&amp;nbsp;&lt;/h1&gt;&lt;p&gt;*&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=12;" vertex="1" parent="1">
-          <mxGeometry x="30" y="370" width="510" height="170" as="geometry" />
+          <mxGeometry x="40" y="370" width="510" height="170" as="geometry" />
         </mxCell>
         <mxCell id="UVZ8KsktMI6j4YWfHxOo-1" value="&lt;h1&gt;Challenges&lt;/h1&gt;&lt;div&gt;* SIP compliancy problems with VoIP clients&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;*&amp;nbsp; Video codec compatibility&amp;nbsp;problems with VoIP clients&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;* If Mixing would be required it may need some extra effort to develop enhancement and probably use much resource to use&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;* WebRTC media handling problems for different platforms&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=12;" vertex="1" parent="1">
-          <mxGeometry x="640" y="370" width="410" height="170" as="geometry" />
+          <mxGeometry x="630" y="370" width="410" height="170" as="geometry" />
         </mxCell>
         <mxCell id="oLrwEBI1Rx4Z403WcgAi-1" value="&lt;h1&gt;Compliancy&lt;/h1&gt;&lt;div&gt;* SIP RFC&lt;/div&gt;&lt;div&gt;* Offer/Answer Model&lt;/div&gt;&lt;div&gt;* SDP&lt;/div&gt;&lt;div&gt;* RTP/RTCP&lt;/div&gt;&lt;div&gt;* WebRTC&lt;/div&gt;&lt;div&gt;* SIP Conference RFC&lt;/div&gt;&lt;div&gt;* SIP REFER RFC&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=12;" vertex="1" parent="1">
           <mxGeometry x="620" y="20" width="410" height="170" as="geometry" />

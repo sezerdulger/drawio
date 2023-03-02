@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-02T13:36:19.006Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="sRHwIM71yvat0pwox4xx" version="20.8.24" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-03-02T17:36:31.085Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="LYKhyzmmSVUG8zkkP-_0" version="20.8.24" type="github" pages="4">
   <diagram name="Page-1" id="2YBvvXClWsGukQMizWep">
     <mxGraphModel dx="1050" dy="540" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -429,7 +429,7 @@
         <mxCell id="CvnQWH9oAZYDR9qTgp7g-10" value="P2P Call" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=1;fontSize=24;" vertex="1" parent="TCfP_ukSUr1LcT99JSwx-1">
           <mxGeometry x="560" y="10" width="320" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="CvnQWH9oAZYDR9qTgp7g-11" value="Copy SDP information to join message" style="shape=card;whiteSpace=wrap;html=1;" vertex="1" parent="TCfP_ukSUr1LcT99JSwx-1">
+        <mxCell id="CvnQWH9oAZYDR9qTgp7g-11" value="Copy SDP information to newP2PCall message" style="shape=card;whiteSpace=wrap;html=1;" vertex="1" parent="TCfP_ukSUr1LcT99JSwx-1">
           <mxGeometry x="700" y="240" width="80" height="70" as="geometry" />
         </mxCell>
         <mxCell id="CvnQWH9oAZYDR9qTgp7g-12" value="Copy SDP information to 200 OK" style="shape=card;whiteSpace=wrap;html=1;" vertex="1" parent="TCfP_ukSUr1LcT99JSwx-1">
@@ -665,19 +665,13 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="MEZlHmAkNhx1BPS7WCgJ" name="Sayfa -2">
+  <diagram id="MEZlHmAkNhx1BPS7WCgJ" name="Tasks">
     <mxGraphModel dx="1050" dy="540" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="NC9fDQXiCX9eXR-Qifdj-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;" parent="1" source="NC9fDQXiCX9eXR-Qifdj-1" target="NC9fDQXiCX9eXR-Qifdj-2" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="NC9fDQXiCX9eXR-Qifdj-1" value="SIP GW" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="60" y="40" width="70" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="NC9fDQXiCX9eXR-Qifdj-2" value="SIP/Streaming Converter Service&amp;nbsp;includes a SIP stack. It should handle basic call and NOTIFY message for DTMF Digits. It must save session state and DTMS digit sequence to route announcement flow as expected.&lt;br&gt;Below SIP stack can be used:&lt;br&gt;https://github.com/usnistgov/jsip&lt;br&gt;SIP/Streaming Converter Service may receive an INVITE message from Call Center. And would response 200 OK including new RTP session(created with ffmpeg lib) media information in SDP.&lt;br&gt;Call center may send SDP in INVITE or in ACK message. First of all service should find saved announcement playing state for this session (session information comes from INVITE headers: From, To, Session-Id).&lt;br&gt;If call state is found then external file URL is created for next announcement file. Ant-media server may use this URL to stream file back to service. And stream data may proxied to RTP session of agent.&amp;nbsp; &amp;nbsp;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="230" y="100" width="400" height="220" as="geometry" />
+        <mxCell id="9XJaRd_zI7AQtbbRjQ4n-1" value="&lt;h1&gt;Tasks&lt;/h1&gt;&lt;p&gt;* SIP stack implementation&lt;/p&gt;&lt;p&gt;*&amp;nbsp;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="40" y="30" width="190" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

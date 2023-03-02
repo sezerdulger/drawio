@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-02T13:16:32.451Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="-8O06jzOBOL-M5FiY21Y" version="20.8.24" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-03-02T13:17:23.789Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="Iv7RFRmX9iZMjkIYO2sg" version="20.8.24" type="github" pages="3">
   <diagram name="Page-1" id="2YBvvXClWsGukQMizWep">
     <mxGraphModel dx="1050" dy="540" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -382,7 +382,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="CvnQWH9oAZYDR9qTgp7g-1" value="WS send newCall message" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="CvnQWH9oAZYDR9qTgp7g-0">
+        <mxCell id="CvnQWH9oAZYDR9qTgp7g-1" value="WS newCall message" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="CvnQWH9oAZYDR9qTgp7g-0">
           <mxGeometry x="0.0035" y="1" relative="1" as="geometry">
             <mxPoint y="-1" as="offset" />
           </mxGeometry>

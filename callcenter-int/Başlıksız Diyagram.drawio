@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-02T22:05:49.116Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="WO17LNyxt9F-KbcAaPze" version="20.8.24" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2023-03-02T22:13:27.232Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="kJbhf1cMGh_3odZvWoKD" version="20.8.24" type="github" pages="7">
   <diagram name="Page-1" id="2YBvvXClWsGukQMizWep">
     <mxGraphModel dx="1050" dy="540" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -1002,7 +1002,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="d1pd00PjXsBUFf9roisa-5" value="Get streamId from INVITE SDP(msid)" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;strokeWidth=1;fontSize=12;size=0;" vertex="1" parent="TDJ8YiC8_bnV5bd5X6He-1">
-          <mxGeometry x="479.07" y="821" width="120" height="30" as="geometry" />
+          <mxGeometry x="480" y="821" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="d1pd00PjXsBUFf9roisa-6" value="Create conf&lt;br&gt;add user" style="shape=card;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=12;" vertex="1" parent="TDJ8YiC8_bnV5bd5X6He-1">
           <mxGeometry x="229.07" y="750" width="80" height="100" as="geometry" />
@@ -1639,11 +1639,14 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="9XJaRd_zI7AQtbbRjQ4n-1" value="&lt;h1&gt;Tasks&lt;/h1&gt;&lt;p&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;* Choose SIP stack&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;* State machine implementation to manage SIP sessions&lt;/p&gt;&lt;p&gt;* Client SDK enhancements&lt;/p&gt;&lt;p&gt;* Trunk configuration may be needed ?&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=12;" vertex="1" parent="1">
-          <mxGeometry x="40" y="30" width="510" height="170" as="geometry" />
+        <mxCell id="9XJaRd_zI7AQtbbRjQ4n-1" value="&lt;h1&gt;Tasks&lt;/h1&gt;&lt;p&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;* Choose SIP stack - SIP Converge Service&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;* State machine implementation to manage SIP sessions - SIP Converge Service&lt;br&gt;&lt;/p&gt;&lt;p&gt;* P2P call &amp;amp; Conference call feature developments - SIP Converge Service&lt;/p&gt;&lt;p&gt;* Client SDK enhancements(may be need to handle incoming p2p/conference call notifications)&lt;/p&gt;&lt;p&gt;* Trunk configuration may be needed in call server(to avoid registrations)&lt;/p&gt;&lt;p&gt;* Media mixing may be needed in Ant Media Server in case of VoIP clients don&#39;t support multiple RTP streams&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="40" y="30" width="920" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="1_cyU5AuRWOiNFVyykDg-1" value="&lt;h1&gt;Overall Time&lt;/h1&gt;&lt;p&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;* SIP stack implementation&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;* State machine implementation to manage SIP sessions&lt;/p&gt;&lt;p&gt;* New websocket message implementations for Client SDKs&amp;nbsp;&lt;/p&gt;&lt;p&gt;*&amp;nbsp;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=12;" vertex="1" parent="1">
+        <mxCell id="1_cyU5AuRWOiNFVyykDg-1" value="&lt;h1&gt;Overall Time&amp;nbsp;&lt;/h1&gt;&lt;p&gt;*&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=12;" vertex="1" parent="1">
           <mxGeometry x="40" y="255" width="510" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="UVZ8KsktMI6j4YWfHxOo-1" value="&lt;h1&gt;Challenges&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="560" y="250" width="410" height="170" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

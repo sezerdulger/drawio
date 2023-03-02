@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-02T17:36:31.085Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="LYKhyzmmSVUG8zkkP-_0" version="20.8.24" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-03-02T17:39:38.888Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="1whtXtSco9baXhdToLRw" version="20.8.24" type="github" pages="4">
   <diagram name="Page-1" id="2YBvvXClWsGukQMizWep">
     <mxGraphModel dx="1050" dy="540" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -244,7 +244,7 @@
         <mxCell id="TCfP_ukSUr1LcT99JSwx-9" value="Ant Media Server" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="TCfP_ukSUr1LcT99JSwx-1" vertex="1">
           <mxGeometry x="480" y="70" width="100" height="770" as="geometry" />
         </mxCell>
-        <mxCell id="TCfP_ukSUr1LcT99JSwx-18" value="SIP Converge Service" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="TCfP_ukSUr1LcT99JSwx-1" vertex="1">
+        <mxCell id="TCfP_ukSUr1LcT99JSwx-18" value="*SIP Converge Service" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="TCfP_ukSUr1LcT99JSwx-1" vertex="1">
           <mxGeometry x="650" y="70" width="100" height="770" as="geometry" />
         </mxCell>
         <mxCell id="TCfP_ukSUr1LcT99JSwx-30" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="TCfP_ukSUr1LcT99JSwx-1" vertex="1">
@@ -368,7 +368,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="nsvp-6Mn_Ezo_a1FK2P3-3" value="WS newP2PCall&amp;nbsp;message" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="nsvp-6Mn_Ezo_a1FK2P3-2" vertex="1" connectable="0">
+        <mxCell id="nsvp-6Mn_Ezo_a1FK2P3-3" value="*WS newP2PCall&amp;nbsp;message" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="nsvp-6Mn_Ezo_a1FK2P3-2" vertex="1" connectable="0">
           <mxGeometry x="0.0035" y="1" relative="1" as="geometry">
             <mxPoint y="-1" as="offset" />
           </mxGeometry>
@@ -382,7 +382,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="CvnQWH9oAZYDR9qTgp7g-1" value="WS newP2PCall message" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="CvnQWH9oAZYDR9qTgp7g-0">
+        <mxCell id="CvnQWH9oAZYDR9qTgp7g-1" value="*WS newP2PCall message" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="CvnQWH9oAZYDR9qTgp7g-0">
           <mxGeometry x="0.0035" y="1" relative="1" as="geometry">
             <mxPoint y="-1" as="offset" />
           </mxGeometry>
@@ -670,7 +670,7 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="9XJaRd_zI7AQtbbRjQ4n-1" value="&lt;h1&gt;Tasks&lt;/h1&gt;&lt;p&gt;* SIP stack implementation&lt;/p&gt;&lt;p&gt;*&amp;nbsp;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=12;" vertex="1" parent="1">
+        <mxCell id="9XJaRd_zI7AQtbbRjQ4n-1" value="&lt;h1&gt;Tasks&lt;/h1&gt;&lt;p&gt;* SIP stack implementation&lt;/p&gt;&lt;p&gt;* Client SDK features&lt;/p&gt;&lt;p&gt;*&amp;nbsp;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=12;" vertex="1" parent="1">
           <mxGeometry x="40" y="30" width="190" height="120" as="geometry" />
         </mxCell>
       </root>

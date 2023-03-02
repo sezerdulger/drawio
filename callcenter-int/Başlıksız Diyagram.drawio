@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-02T20:54:27.287Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="_pz1K4c4Ws8q1oNgGXxq" version="20.8.24" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-03-02T21:01:32.194Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="zM3j7X5SVLWzl03_fAd1" version="20.8.24" type="github" pages="5">
   <diagram name="Page-1" id="2YBvvXClWsGukQMizWep">
     <mxGraphModel dx="1050" dy="540" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -419,17 +419,6 @@
             <mxPoint x="-9" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="7sQvKJ_lzT9LNtdlpJOT-24" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="7sQvKJ_lzT9LNtdlpJOT-1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="530" y="150" as="sourcePoint" />
-            <mxPoint x="700" y="150" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="7sQvKJ_lzT9LNtdlpJOT-25" value="Websocket connection" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="7sQvKJ_lzT9LNtdlpJOT-24">
-          <mxGeometry x="0.1705" relative="1" as="geometry">
-            <mxPoint x="-9" as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="7sQvKJ_lzT9LNtdlpJOT-26" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="7sQvKJ_lzT9LNtdlpJOT-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="699.75" y="250" as="sourcePoint" />
@@ -439,7 +428,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="7sQvKJ_lzT9LNtdlpJOT-27" value="*WS newP2PCall&amp;nbsp;message" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="7sQvKJ_lzT9LNtdlpJOT-26">
+        <mxCell id="7sQvKJ_lzT9LNtdlpJOT-27" value="*Rest api newP2PCall" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="7sQvKJ_lzT9LNtdlpJOT-26">
           <mxGeometry x="0.0035" y="1" relative="1" as="geometry">
             <mxPoint y="-1" as="offset" />
           </mxGeometry>
@@ -467,20 +456,6 @@
         <mxCell id="7sQvKJ_lzT9LNtdlpJOT-31" value="WS join message" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="7sQvKJ_lzT9LNtdlpJOT-30">
           <mxGeometry x="0.213" y="-1" relative="1" as="geometry">
             <mxPoint x="-23" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="7sQvKJ_lzT9LNtdlpJOT-32" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="7sQvKJ_lzT9LNtdlpJOT-1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="699.75" y="280" as="sourcePoint" />
-            <mxPoint x="529.75" y="280" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="650.25" y="280" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="7sQvKJ_lzT9LNtdlpJOT-33" value="WS join message" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="7sQvKJ_lzT9LNtdlpJOT-32">
-          <mxGeometry x="-0.0318" relative="1" as="geometry">
-            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="7sQvKJ_lzT9LNtdlpJOT-34" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="7sQvKJ_lzT9LNtdlpJOT-1">
